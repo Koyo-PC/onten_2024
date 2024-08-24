@@ -1,0 +1,20 @@
+.circle {
+    margin-top: 50px;
+    &_name {
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+    &__image {
+        &_logo {
+            width: 50vw;
+        }
+        margin-bottom: 50px;
+    }
+    &_location {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    &_introduction {
+        font-size: 20px;
+    }
+}

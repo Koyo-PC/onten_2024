@@ -1,0 +1,31 @@
+{% extends "main/base.html" %}      
+{% load static %}
+
+{% block title %}
+2024年度 甲陽学院高等学校 音楽と展覧の会 サークル詳細
+{% endblock %}
+
+{% block head %}
+    <link rel="stylesheet" href="{% static 'main/css/base.css'%}">
+    <link rel="stylesheet" href="{% static 'main/css/circles_detail.css' %}">
+{% endblock %}
+
+
+{% block contents %}
+    <div class="circle">
+        <p class="circle_name">{{ circle.name }}</p>
+        <div class="circle__image">
+        {% if circle.logo %}
+            <img class="circle__image_logo" src="{{ circle.logo.url }}"/>
+        {% else %}
+        {% endif %}
+        </div>
+        <p class="circle_location">@{{ circle.location }}</p>
+        <p class="circle_introduction">{{ circle.introduction }}</p>
+        
+    </div>
+{% endblock %}
+
+
+{% block extra_js %}
+{% endblock %}   

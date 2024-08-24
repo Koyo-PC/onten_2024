@@ -1,0 +1,20 @@
+.circle {
+  margin-top: 50px;
+}
+.circle_name {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+.circle__image {
+  margin-bottom: 50px;
+}
+.circle__image_logo {
+  width: 50vw;
+}
+.circle_location {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.circle_introduction {
+  font-size: 20px;
+}/*# sourceMappingURL=circles_detail.css.map */
