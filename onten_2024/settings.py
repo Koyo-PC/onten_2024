@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-u$5an1b_!^bf@l8&*rz@qjfv(nb*bn^kvv-!z4s(gv&(8(q6@a'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
@@ -127,9 +127,3 @@ MEDIA_ROOT = BASE_DIR / "media"
 MEDIA_URL = "/media/"
 
 STATIC_ROOT = BASE_DIR / "staticfiles"
-
-try:
-    from .local_settings import *
-except ImportError:
-    # local_settings.py が存在しなくてもエラーにならないようにする
-    pass
