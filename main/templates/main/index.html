@@ -11,6 +11,14 @@
 {% endblock %}
 
 {% block contents %}
+    <div id="password-protection">
+        <h2>Enter Password</h2>
+        <form id="passwordForm">
+            <input type="password" id="password" placeholder="Enter password">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <div id="content" style="display: none;">
     <div class = "index-top">
         <img src = "{% static 'main/images/rogo5.png' %}" class = "index-top-img">
         <h1 class = "index-top-title">第77回<br>甲陽学院高等学校<br>音楽と展覧の会</h1>
@@ -29,7 +37,7 @@
         </p>
         <p class="index-message-name">音展委員長 小松 冬弥</p>
         <p class = "index-message-content">
-            「桜桃梅李一時の春」は初代伊賀校長の愛誦された句です。自由な環境にあって、生徒の持つ強い自主性と豊かな個性を花々に準え建学の理念としました。昨年，音展はコロナ禍の困難を経て名実共に「New ERA」に突入しました。新時代到来後最初の音展のテーマが「咲－show—」です。生徒と伊賀先生、それぞれが音展と建学の理念の象徴として選んだモチーフが自由に咲き誇る花であるとはなんとも感慨深いものがあります。戦後より音展はその外形を大きく変えてきましたが，建学以来伊賀先生から生徒に継受された理想は変らずより強固になっていると感じます。進化し続ける音展を楽しみながら、その底流にある甲陽の精神を，感じて頂ければ幸いです。
+            「桜桃梅李一時の春」は初代伊賀校長の愛誦された句です。自由な環境にあって、生徒の持つ強い自主性と豊かな個性を花々に準え建学の理念としました。昨年，音展はコロナ禍の困難を経て名実共に「New ERA」に突入しました。新時代到来後最初の音展のテーマが「咲－show－」です。生徒と伊賀先生、それぞれが音展と建学の理念の象徴として選んだモチーフが自由に咲き誇る花であるとはなんとも感慨深いものがあります。戦後より音展はその外形を大きく変えてきましたが，建学以来伊賀先生から生徒に継受された理想は変らずより強固になっていると感じます。進化し続ける音展を楽しみながら、その底流にある甲陽の精神を，感じて頂ければ幸いです。
         </p>
         <p class="index-message-name">生徒会長 永田 一真</p>
     </div>
@@ -119,13 +127,13 @@
         <h3 class="member-all">デザイン</h3>
         <p class="member-name">岡野 陸大　　浅田 遼</p>
     </div>
-
+</div>
 {% endblock %}
 
 
 {% block extra_js %}
     <script src="{% static 'main/javascript/countdown.js' %}"></script>
-
+    <script src="{% static 'main/javascript/password.js' %}"></script>
     <script>
         $(function() {
         $("#header").load("header.html");
