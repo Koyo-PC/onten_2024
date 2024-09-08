@@ -22,6 +22,9 @@ class MapView(TemplateView):
 
 class TimeTableView(TemplateView):
     template_name = "main/timetable.html"
+
+class GreetingsView(TemplateView):
+    template_name = "main/Greetings.html"
     
 class CirclesView(ListView):
     template_name = "main/circles.html"

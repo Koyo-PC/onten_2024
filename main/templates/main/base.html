@@ -9,8 +9,7 @@
         <title>{% block title %}{% endblock %}</title>
 
         <link rel="stylesheet" href="{% static 'main/css/destyle.css'%}">
-        
-        <link rel="stylesheet" href="{% static 'main/css/index.css' %}">
+        <link rel="stylesheet" href="{% static 'main/css/base.css' %}">
 
         <link rel="icon" type="image/onten-icon" href="{% static 'main/images/favicon.png' %}"> 
         
@@ -38,6 +37,7 @@
                     <a class="nav_link" href="{% url 'timetable'%}">TIME TABLE</a>
                     <a class="nav_link" href="{% url 'map'%}">MAP</a>
                     <a class="nav_link" href="{% url 'access'%}">ACCESS</a>
+                    <a class="nav_link" href="{% url 'greetings'%}">GREETINGS</a>
                     
                 </ul>
             </div> 
