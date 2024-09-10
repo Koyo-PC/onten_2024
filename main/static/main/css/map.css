@@ -1,6 +1,5 @@
 .map-main {
   position: relative;
-  padding: 50px 10%;
   font-weight: 400;
   overflow-x: hidden;
 }
@@ -15,16 +14,12 @@
   color: white;
 }
 
-.map-title {
-  margin: 10px 0;
-}
-
 .map {
   margin: 0 -5vw;
   padding: 20px;
 }
 
-.each-map {
+.map-each {
   width: 100%;
 }
 
@@ -72,7 +67,6 @@
   cursor: pointer;
   display: grid;
   place-content: center;
-  /* color: #e2e2e2; */
   text-align: center;
 }
 
@@ -196,7 +190,7 @@
     font-weight: 400;
     overflow-x: hidden;
   }
-  .each-map {
+  .map-each {
     width: 200%;
   }
   .nazo {
