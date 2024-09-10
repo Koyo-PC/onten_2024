@@ -1,3 +1,7 @@
+main {
+  margin-top: 0;
+}
+
 .index-top {
   text-align: center;
   margin-bottom: 100px;
@@ -41,11 +45,6 @@
   margin-right: 5%;
 }
 
-@media screen and (min-width: 1000px) {
-  .index-message {
-    width: 80%;
-  }
-}
 @media screen and (max-width: 480px) {
   #load-img-pc {
     display: none;
