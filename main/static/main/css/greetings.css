@@ -1,7 +1,3 @@
-main {
-  margin-top: 0;
-}
-
 .index-top {
   text-align: center;
   margin-bottom: 100px;
@@ -80,4 +76,17 @@ main {
   .index-message-name {
     font-size: 0.9rem;
   }
-}/*# sourceMappingURL=index.css.map */
+}
+.member {
+  width: 80%;
+}
+.member-all {
+  margin-top: 20px;
+  font-size: 20px;
+  margin-left: 5%;
+}
+.member-name {
+  font-size: 15px;
+  margin-top: 7px;
+  margin-left: 5%;
+}/*# sourceMappingURL=greetings.css.map */

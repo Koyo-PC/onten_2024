@@ -12,8 +12,6 @@ urlpatterns = [
     path("circles",views.CirclesView.as_view(),name="circles"),
     path("circles_detail/<int:pk>", views.CirclesDetailView.as_view(), name="circles_detail"),
     path("greetings",views.GreetingsView.as_view(),name="greetings"),
-
-
-
+    path("math",views.MathView.as_view(),name="math"),
 
 ]
