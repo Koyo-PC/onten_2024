@@ -137,9 +137,10 @@
     width: 18%;
     height:60px;
     text-align: center;
-    border: #303030 1px solid;
-    border-radius: 20px;
-    &-1:hover{background-color: #ff0008a9;}
+    // border: #303030 1px solid;
+    // border-radius: 20px;
+    background-color: rgba(0, 0, 255, 0.082);
+    &-1:hover{background-color: #ec464ca9;}
     &-2:hover{background-color: #fff200b3;}
     &-3:hover{background-color: #00d520ae;}
     &-4:hover{background-color: #00abfab3;}

@@ -23,6 +23,9 @@
             padding-right: 10px;
             padding-top: 5px;
             padding-bottom: 5px;
+            &:hover {
+                background-color: rgba(0, 0, 255, 0.33);
+            }
             &__link {
                 display: flex;
                 align-items: center;

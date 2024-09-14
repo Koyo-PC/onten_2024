@@ -23,6 +23,9 @@
   padding-top: 5px;
   padding-bottom: 5px;
 }
+.circles__container__block:hover {
+  background-color: rgba(0, 0, 255, 0.33);
+}
 .circles__container__block__link {
   display: flex;
   align-items: center;
