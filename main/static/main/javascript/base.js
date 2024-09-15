@@ -42,6 +42,8 @@ function sleepSetTimeout(ms, callback) {
 }
 
 window.onload = function() {
+    // sessionStorage を確認してアニメーションの表示を制御
+    if (!sessionStorage.getItem("animationShown")) {
     var cont = document.getElementById("load-img-pc");
     var conte = document.getElementById("load-img-phone");
 
@@ -74,5 +76,17 @@ window.onload = function() {
         conte.style.opacity = "0";
         sleepSetTimeout(3000, () => conte.style.display = "none");
     });
-    
+
+    // アニメーションが表示されたことを sessionStorage に記録
+    sessionStorage.setItem("animationShown", "true");
+    } else {
+    // 2回目以降のアクセスではアニメーションを表示しない
+    document.getElementById("load-img-pc").style.display = "none";
+    document.getElementById("load-img-phone").style.display = "none";
+    }
 };
+
+// sleepSetTimeout 関数の定義 (setTimeout のラッパー)
+function sleepSetTimeout(ms, callback) {
+    setTimeout(callback, ms);
+}

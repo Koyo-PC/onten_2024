@@ -7,14 +7,41 @@
 
 {% block head %}
     <link rel="stylesheet" href="{% static 'main/css/base.css'%}">
-    <link rel="stylesheet" href="{% static 'main/css/access.css' %}">
+    <link rel="stylesheet" href="{% static 'main/css/timetable.css' %}">
 {% endblock %}
 
 
 {% block contents %}
-    <div>
-        coming soon
+    <h2>Timetable</h2>
+    <div class="timetable">
+            <div class="timetable__place" id="stage"><p class="timetable__place_txt">中央ステージ</p></div>
+            <div class="timetable__place" id="auditorium"><p class="timetable__place_txt">講堂</p></div>
+            <div class="timetable__place" id="physics"><p class="timetable__place_txt">物理講義室</p></div>
+            <div class="timetable__place" id="merger"><p class="timetable__place_txt">合併教室</p></div>
+            <div class="timetable__place" id="audiovisual"><p class="timetable__place_txt">視聴覚教室</p></div>
+
+            <div class="timetable__space timetable__sticky" id="space"></div>
+            <div class="timetable__margin timetable__sticky" id="margin"></div>
+
+            <div class="timetable__time timetable__sticky" id="nine"><p class="timetable__time_txt">9:00</p></div>
+            <div class="timetable__time timetable__sticky" id="nine-thirty"><p class="timetable__time_txt">9:30</p></div>
+            <div class="timetable__time timetable__sticky" id="ten"><p class="timetable__time_txt">10:00</p></div>
+            <div class="timetable__time timetable__sticky" id="ten-thirty"><p class="timetable__time_txt">10:30</p></div>
+            <div class="timetable__time timetable__sticky" id="eleven"><p class="timetable__time_txt">11:00</p></div>
+            <div class="timetable__time timetable__sticky" id="eleven-thirty"><p class="timetable__time_txt">11:30</p></div>
+            <div class="timetable__time timetable__sticky" id="twelve"><p class="timetable__time_txt">12:00</p></div>
+            <div class="timetable__time timetable__sticky" id="twelve-thirty"><p class="timetable__time_txt">12:30</p></div>
+            <div class="timetable__time timetable__sticky" id="thirteen"><p class="timetable__time_txt">13:00</p></div>
+            <div class="timetable__time timetable__sticky" id="thirteen-thirty"><p class="timetable__time_txt">13:30</p></div>
+            <div class="timetable__time timetable__sticky" id="fourteen"><p class="timetable__time_txt">14:00</p></div>
+            <div class="timetable__time timetable__sticky" id="fourteen-thirty"><p class="timetable__time_txt">14:30</p></div>
+            <div class="timetable__time timetable__sticky" id="fifteen"><p class="timetable__time_txt">15:00</p></div>
+            <div class="timetable__time timetable__sticky" id="fifteen-thirty"><p class="timetable__time_txt">15:30</p></div>
+
+            <div class="timetable__back" id="time-back"></div>
+            
     </div>
+
 {% endblock %}
 
 

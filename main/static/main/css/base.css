@@ -39,7 +39,7 @@ html {
   text-align: center;
   padding-top: 30px;
   position: relative;
-  height: 300px;
+  height: 170px;
   margin-top: 200px;
 }
 .footer_icon {
@@ -48,17 +48,6 @@ html {
 .footer_txt {
   align-items: center;
   margin-top: 50px;
-}
-.footer__content {
-  margin-top: 50px;
-  display: flex;
-  justify-content: center;
-}
-.footer__content__member {
-  margin-left: 30px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
 }
 
 main {
@@ -180,6 +169,7 @@ h2 {
 #sp__bg.active {
   opacity: 1;
   visibility: visible;
+  z-index: 11;
 }
 
 .nav {

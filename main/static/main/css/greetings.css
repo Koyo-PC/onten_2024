@@ -27,7 +27,6 @@
   margin-bottom: 100px;
 }
 .index-message-content {
-  margin-left: 5%;
   font-size: 18px;
   font-stretch: expanded;
   text-align: left;
@@ -78,7 +77,7 @@
   }
 }
 .member {
-  width: 80%;
+  margin-bottom: 100px;
 }
 .member-all {
   margin-top: 20px;
@@ -89,4 +88,9 @@
   font-size: 15px;
   margin-top: 7px;
   margin-left: 5%;
+}
+
+.web__member p {
+  font-size: 17px;
+  margin-bottom: 10px;
 }/*# sourceMappingURL=greetings.css.map */

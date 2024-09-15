@@ -1,1 +1,125 @@
-/*# sourceMappingURL=timetable.css.map */
+@charset "UTF-8";
+main {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.timetable {
+  display: grid;
+  grid-template-columns: 50px 170px 170px 170px 170px 170px;
+  grid-template-rows: 40px 30px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+  grid-template-areas: "nine stage auditorium physics audiovisual merger";
+  overflow-x: scroll;
+}
+.timetable__place {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.timetable__place_txt {
+  font-size: 15px;
+}
+.timetable__time_txt {
+  font-size: 16px;
+}
+.timetable__sticky {
+  position: sticky;
+  left: 0; /* 横スクロールに対して固定 */
+  z-index: 10; /* 他の要素の上に表示されるようにする */
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.timetable__back {
+  background-color: rgba(64, 137, 200, 0.115);
+}
+.timetable #stage {
+  grid-column: 2;
+  grid-row: 1;
+  background-color: rgba(255, 145, 0, 0.166);
+}
+.timetable #auditorium {
+  grid-column: 3;
+  grid-row: 1;
+  background-color: rgba(182, 118, 0, 0.322);
+}
+.timetable #physics {
+  grid-column: 4;
+  grid-row: 1;
+  background-color: rgba(0, 128, 0, 0.263);
+}
+.timetable #merger {
+  grid-column: 5;
+  grid-row: 1;
+  background-color: rgba(0, 0, 255, 0.179);
+}
+.timetable #audiovisual {
+  grid-column: 6;
+  grid-row: 1;
+  background-color: rgba(0, 0, 0, 0.132);
+}
+.timetable #space {
+  grid-row: 2;
+}
+.timetable #nine {
+  grid-column: 1;
+  grid-row: 3;
+}
+.timetable #nine-thirty {
+  grid-column: 1;
+  grid-row: 4;
+}
+.timetable #ten {
+  grid-column: 1;
+  grid-row: 5;
+}
+.timetable #ten-thirty {
+  grid-column: 1;
+  grid-row: 6;
+}
+.timetable #eleven {
+  grid-column: 1;
+  grid-row: 7;
+}
+.timetable #eleven-thirty {
+  grid-column: 1;
+  grid-row: 8;
+}
+.timetable #twelve {
+  grid-column: 1;
+  grid-row: 9;
+}
+.timetable #twelve-thirty {
+  grid-column: 1;
+  grid-row: 10;
+}
+.timetable #thirteen {
+  grid-column: 1;
+  grid-row: 11;
+}
+.timetable #thirteen-thirty {
+  grid-column: 1;
+  grid-row: 12;
+}
+.timetable #fourteen {
+  grid-column: 1;
+  grid-row: 13;
+}
+.timetable #fourteen-thirty {
+  grid-column: 1;
+  grid-row: 14;
+}
+.timetable #fifteen {
+  grid-column: 1;
+  grid-row: 15;
+}
+.timetable #fifteen-thirty {
+  grid-column: 1;
+  grid-row: 16;
+}
+.timetable #time-back {
+  grid-column: 2/7;
+  grid-row: 3/17;
+}
+.timetable #margin {
+  grid-column: 1;
+  grid-row: 1;
+}/*# sourceMappingURL=timetable.css.map */
