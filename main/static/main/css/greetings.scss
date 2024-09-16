@@ -1,33 +1,11 @@
 .index{
-    &-top{
-        text-align: center;
-        margin-bottom: 100px;
-        &-title{
-            font-size: 2rem;
-        }
-        &-img{
-            width: 50vw;
-            margin-bottom: 50px;
-        }
-        &-data{
-            font-size: 4rem;
-        }
-    }
-    &-countdown{
-        &-box{
-            text-align: center;
-            margin-bottom: 100px;
-        }
-        &-content{
-            font-size: 4rem;
-            color:#e95295
-        }
-        &-title{
-            font-size: 2rem;
-        }
-    }
+
+
     &-message{
         margin-bottom: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80vw;
         
         &-content{
 
@@ -48,32 +26,13 @@
 
 
 @media screen and (max-width: 480px) {
-    #load-img{
-        &-pc{display: none;}
-        &-phone{display: block;}
+    main {
+        margin-left: 20px;
+        margin-right: 20px;
     }
     .index{
-        &-top{
-            &-img{
-                width: 60%;
-            }
-            &-title{
-                font-size:2rem;
-            }
-        }
-        &-countdown{
-            &-content{
-                font-size: 4rem;
-            }
-            &-data{
-                font-size: 4rem;
-            }
-            &-title{
-                font-size: 1.5rem;
-            }
-        }
         &-message{
-            width: 80vw;
+            // width: 80vw;
             margin-bottom: 30px;
             &-title{
                 font-size: 2rem;
@@ -89,15 +48,18 @@
 }
 .member{
     margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
     &-all{
         margin-top: 20px;
         font-size:20px;
-        margin-left: 5%;
+        // margin-left: 5%;
     }
     &-name{
         font-size: 15px;
         margin-top: 7px;
-        margin-left: 5%;
+        // margin-left: 5%;
     }
 }
 .web__member {
@@ -105,4 +67,7 @@
         font-size: 17px;
         margin-bottom: 10px;
     }
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
 }

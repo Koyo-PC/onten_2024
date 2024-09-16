@@ -1,30 +1,8 @@
-.index-top {
-  text-align: center;
-  margin-bottom: 100px;
-}
-.index-top-title {
-  font-size: 2rem;
-}
-.index-top-img {
-  width: 50vw;
-  margin-bottom: 50px;
-}
-.index-top-data {
-  font-size: 4rem;
-}
-.index-countdown-box {
-  text-align: center;
-  margin-bottom: 100px;
-}
-.index-countdown-content {
-  font-size: 4rem;
-  color: #e95295;
-}
-.index-countdown-title {
-  font-size: 2rem;
-}
 .index-message {
   margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80vw;
 }
 .index-message-content {
   font-size: 18px;
@@ -41,29 +19,11 @@
 }
 
 @media screen and (max-width: 480px) {
-  #load-img-pc {
-    display: none;
-  }
-  #load-img-phone {
-    display: block;
-  }
-  .index-top-img {
-    width: 60%;
-  }
-  .index-top-title {
-    font-size: 2rem;
-  }
-  .index-countdown-content {
-    font-size: 4rem;
-  }
-  .index-countdown-data {
-    font-size: 4rem;
-  }
-  .index-countdown-title {
-    font-size: 1.5rem;
+  main {
+    margin-left: 20px;
+    margin-right: 20px;
   }
   .index-message {
-    width: 80vw;
     margin-bottom: 30px;
   }
   .index-message-title {
@@ -78,18 +38,24 @@
 }
 .member {
   margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80vw;
 }
 .member-all {
   margin-top: 20px;
   font-size: 20px;
-  margin-left: 5%;
 }
 .member-name {
   font-size: 15px;
   margin-top: 7px;
-  margin-left: 5%;
 }
 
+.web__member {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80vw;
+}
 .web__member p {
   font-size: 17px;
   margin-bottom: 10px;

@@ -53,15 +53,11 @@ html {
 main {
   margin-top: 100px;
   margin-bottom: 10px;
-  margin-left: 150px;
-  margin-right: 150px;
 }
 
 @media screen and (max-width: 648px) {
   main {
     margin-top: 40px;
-    margin-left: 60px;
-    margin-right: 60px;
   }
   #header {
     height: 40px;
@@ -69,10 +65,11 @@ main {
   }
 }
 h2 {
-  align-items: center;
-  border-bottom: solid 2px rgb(82, 88, 187);
-  font-size: 30px;
+  font-size: 40px;
+  font-weight: 600;
+  color: black;
   margin-bottom: 50px;
+  margin-left: 30px;
 }
 
 .header {
