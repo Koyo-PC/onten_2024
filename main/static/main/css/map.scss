@@ -103,7 +103,7 @@ main {
 }
 .ftext2{
     background-color: white;
-    font-size: 15px;
+    font-size: 13px;
     word-wrap: break-word;
     display:flex;
 }
@@ -131,68 +131,6 @@ main {
     font-family: "makinas-4-square";
 }
 
-// .button{
-
-//     width: 80px;
-//     height:60px;
-//     text-align: center;
-//     font-size: 14px;
-//     margin: 10px;
-//     background-color: rgba(0, 0, 255, 0.082);
-//     &-1:hover{background-color: #ec464ca9;}
-//     &-2:hover{background-color: #fff200b3;}
-//     &-3:hover{background-color: #00d520ae;}
-//     &-4:hover{background-color: #00abfab3;}
-//     &-5:hover{background-color: #3d47d492;}
-// }
-// .button-container {
-//     display: flex;
-//     flex-direction: row;
-//     justify-content: center;
-//     overflow-x: auto;
-//     white-space: nowrap;  // 横スクロールを有効にするため
-//     width: 90vw;
-//     margin: auto;
-
-//     .button {
-//         width: 120px;
-//         height: 60px;
-//         text-align: center;
-//         font-size: 14px;
-//         margin: 10px;
-//         background-color: rgba(0, 0, 255, 0.082);
-
-//         &-1 {
-//             &:hover {
-//                 background-color: #ec464ca9;
-//             }
-//         }
-
-//         &-2 {
-//             &:hover {
-//                 background-color: #fff200b3;
-//             }
-//         }
-
-//         &-3 {
-//             &:hover {
-//                 background-color: #00d520ae;
-//             }
-//         }
-
-//         &-4 {
-//             &:hover {
-//                 background-color: #00abfab3;
-//             }
-//         }
-
-//         &-5 {
-//             &:hover {
-//                 background-color: #3d47d492;
-//             }
-//         }
-//     }
-// }
 .button-container {
     display: flex;
     flex-direction: row;
@@ -249,5 +187,8 @@ main {
     }
     .map-link-name {
         font-size: 7px;
+    }
+    .map-toilet-room {
+        font-size: 4px;
     }
 }

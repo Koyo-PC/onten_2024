@@ -96,7 +96,7 @@ main {
 
 .ftext2 {
   background-color: white;
-  font-size: 15px;
+  font-size: 13px;
   word-wrap: break-word;
   display: flex;
 }
@@ -169,5 +169,8 @@ main {
   }
   .map-link-name {
     font-size: 7px;
+  }
+  .map-toilet-room {
+    font-size: 4px;
   }
 }/*# sourceMappingURL=map.css.map */
