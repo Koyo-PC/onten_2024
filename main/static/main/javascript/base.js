@@ -1,41 +1,3 @@
-// document.addEventListener('DOMContentLoaded', function () {
-//     const menuToggle = document.getElementById('menu-toggle');
-//     const spBg = document.getElementById('sp__bg');
-//     const body = document.getElementById('mask');
-
-//     // メニューを閉じる関数
-//     function closeMenu() {
-//         menuToggle.classList.remove('active');
-//         spBg.classList.remove('active');
-//         body.style.overflow = 'auto';
-//     }
-
-//     // メニューを開閉する処理
-//     menuToggle.addEventListener('click', function () {
-//         // ハンバーガーメニューのボタンを切り替え
-//         this.classList.toggle('active');
-
-//         // メニュー背景の表示/非表示を切り替え
-//         spBg.classList.toggle('active');
-        
-//         // メニューが表示されているときはスクロールを無効にする
-//         if (spBg.classList.contains('active')) {
-//             body.style.overflow = 'hidden';
-//         } else {
-//             body.style.overflow = 'auto';
-//         }
-//     });
-
-//     // メニュー背景をクリックしたときにメニューを閉じる
-//     spBg.addEventListener('click', closeMenu);
-
-//     // メニューアイコン以外の部分をクリックしてもメニューを閉じる
-//     document.addEventListener('click', function (event) {
-//         if (spBg.classList.contains('active') && !menuToggle.contains(event.target) && !spBg.contains(event.target)) {
-//             closeMenu();
-//         }
-//     });
-// });
 document.addEventListener('DOMContentLoaded', function () {
     const menuToggle = document.getElementById('menu-toggle');
     const spBg = document.getElementById('sp__bg');
@@ -106,11 +68,11 @@ window.onload = function() {
     conte.style.zIndex = 200000;
 
     // 3秒後にフェードアウト、6秒後に非表示
-    sleepSetTimeout(3000, () => {
+    sleepSetTimeout(2000, () => {
         cont.style.opacity = "0";
         conte.style.opacity = "0";
     });
-    sleepSetTimeout(6000, () => {
+    sleepSetTimeout(4000, () => {
         cont.style.display = "none";
         conte.style.display = "none";
     });
