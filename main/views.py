@@ -5,7 +5,7 @@ from django.views.generic.base import TemplateView
 from django.views.generic.detail import DetailView
 from django.views.generic.list import ListView
 
-from .models import Circle
+from .models import Circle, Ranking
 from .forms import (
     CirclesSearchForm,
 )
@@ -64,3 +64,13 @@ class CirclesDetailView(DetailView):
         context["circle_data_list"] = data_list
 
         return context
+    
+class RankingView(ListView):
+    template_name = "main/ranking.html"
+    model = Ranking
+    context_object_name = "rankings"
+
+    def get_queryset(self):
+        ranking = super().get_queryset().order_by('time')
+        return ranking
+    

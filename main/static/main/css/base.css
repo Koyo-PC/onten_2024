@@ -169,7 +169,7 @@ h2 {
 #sp__bg.active {
   opacity: 1;
   visibility: visible;
-  z-index: 11;
+  z-index: 9;
 }
 
 .nav {

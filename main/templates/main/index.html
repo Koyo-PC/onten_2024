@@ -2,7 +2,7 @@
 {% load static %}
 
 {% block title %}
-2024年度 甲陽学院高等学校 音楽と展覧の会 ホーム
+2024年度 甲陽学院高等学校 音楽と展覧の会 Home
 {% endblock %}
 
 {% block head %}
@@ -11,14 +11,23 @@
 
 {% block contents %}
 
-    <div class = "index-top">
-        <img src = "{% static 'main/images/rogo5.png' %}" class = "index-top-img">
-        <h1 class = "index-top-title">第77回<br>甲陽学院高等学校<br>音楽と展覧の会</h1>
-        <h1 class = "index-top-data">9.22 SUN</span><br>9:00~15:00</h1>
+    
+    <div class="image">
+    <img src = "{% static 'main/images/rogo5.png' %}" class = "image_image">
     </div>
-    <div class = "index-countdown-box">
-        <p class = "index-countdown-title">開催まで</p>
-        <span class = "index-countdown-content"></span>
+    <div class="home">
+        <h3 class="home_num">第77回</h3>
+        <h1 class="home_koyo">甲陽学院高等学校</h1>
+        <h1 class="home_onten">音楽と展覧の会</h1>
+
+
+        <p class="home_day">9.22 SUN</p>
+        <p class="home_time">9:00~15:00</p>
+
+
+        <p class="home_countdown">開催まで</p>
+        <p class = "home_hour"></p>
+
     </div>
 
 

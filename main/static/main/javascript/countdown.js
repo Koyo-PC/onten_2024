@@ -1,8 +1,8 @@
 'use strict';
 
 function countdown(){
-    const targetDate = new Date( 2024, 8, 21, 9, 0, 0);
-    const endgetDate = new Date( 2024, 8, 21, 16, 0, 0);
+    const targetDate = new Date( 2024, 8, 22, 9, 0, 0);
+    const endgetDate = new Date( 2024, 8, 22, 16, 0, 0);
     const now = new Date();
     const distance = targetDate.getTime() - now.getTime();
     const span = endgetDate.getTime() - now.getTime();
@@ -23,13 +23,13 @@ function countdown(){
     else hour=calshours;
     days = calsdays;
     if(distance >= 0){
-        document.getElementsByClassName("index-countdown-content")[0].innerText=days+":"+hour+":"+min+ ":" + sec ;
+        document.getElementsByClassName("home_hour")[0].innerText=days+":"+hour+":"+min+ ":" + sec ;
     }
     else if(span >= 0){
-        document.getElementsByClassName("index-countdown-content")[0].innerText="音展当日！！";
+        document.getElementsByClassName("home_hour")[0].innerText="音展当日！！";
     }
     else{
-        document.getElementsByClassName("index-countdown-content")[0].innerText="音展終了！！";
+        document.getElementsByClassName("home_hour")[0].innerText="音展終了！！";
     }
 }
 

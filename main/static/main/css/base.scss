@@ -1,10 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+// .noto-sans-jp-<uniquifier> {
+//     font-family: "Noto Sans JP", sans-serif;
+//     font-optical-sizing: auto;
+//     font-weight: <weight>;
+//     font-style: normal;
+// }
+
 body {
     font-family: "Noto Sans JP", sans-serif;
     font-optical-sizing: auto;
-    font-style: normal;
-    // background-color: white;
-    
+    font-style: normal;    
 }
 html {
     background-image: url(../images/back.jpg);
@@ -173,7 +182,7 @@ h2 {
     &.active {
         opacity: 1;
         visibility: visible;
-        z-index: 11;
+        z-index: 9;
     }
 }
 

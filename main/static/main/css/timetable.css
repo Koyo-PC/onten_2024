@@ -25,7 +25,7 @@ main {
 .timetable__sticky {
   position: sticky;
   left: 0; /* 横スクロールに対して固定 */
-  z-index: 10; /* 他の要素の上に表示されるようにする */
+  z-index: 6; /* 他の要素の上に表示されるようにする */
   background-color: rgba(255, 255, 255, 0.8);
 }
 .timetable__back {

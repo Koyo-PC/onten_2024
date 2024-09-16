@@ -32,9 +32,9 @@
                 </div>
                 <p class="circles__container__block_name">{{ circle.name}}</p>
             </a>
-            <a href="{% url 'map' %}">
-                <p class="circles__container__block_location"><span>@</span>{{ circle.location }}</p>
-            </a>
+            
+            <p class="circles__container__block_location"><span>@</span>{{ circle.location }}</p>
+            
         </div>
 
         {% endfor %}
