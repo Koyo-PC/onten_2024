@@ -10,6 +10,12 @@ html {
   background-image: url(../images/back.jpg);
 }
 
+img {
+  user-drag: none;
+  -webkit-user-drag: none;
+  -moz-user-select: none;
+}
+
 #load-img-pc {
   position: fixed;
   top: 0;
