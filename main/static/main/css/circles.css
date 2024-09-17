@@ -7,6 +7,14 @@
   margin-top: 20px;
   margin-bottom: 50px;
 }
+.circles__form_search {
+  background-color: #f2f2f2;
+  padding: 5px 10px 5px 4px;
+  text-align: start;
+}
+.circles__form_submit {
+  margin-left: 10px;
+}
 .circles__container {
   display: flex;
   flex-wrap: wrap;
@@ -38,8 +46,9 @@
 }
 .circles__container__block_name {
   font-size: 30px;
-  font-weight: bold;
+  font-weight: 600;
 }
 .circles__container__block_location {
   font-size: 16px;
+  font-weight: 550;
 }/*# sourceMappingURL=circles.css.map */

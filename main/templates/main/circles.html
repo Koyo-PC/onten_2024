@@ -16,9 +16,10 @@
     
 
     <form method="GET" class="circles__form">
-        <i class="fas fa-search"></i>
+
         {{ form.keyword }}
-        <button type="submit" class="circles__form_submit">検索</button>
+        <button type="submit" class="circles__form_submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        
     </form>
     <div  class="circles__container">
         {% for circle in circles %}
