@@ -13,6 +13,9 @@
             font-stretch: expanded;
             text-align: left;
             line-height: 2;
+            & span {
+                padding-left: 1rem;
+            }
         }
         &-name{
             font-size: 1.2rem;

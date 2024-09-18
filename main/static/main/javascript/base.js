@@ -59,7 +59,7 @@ window.onload = function() {
         cont.style.opacity = "0";
         conte.style.opacity = "0";
     });
-    sleepSetTimeout(4000, () => {
+    sleepSetTimeout(3000, () => {
         cont.style.display = "none";
         conte.style.display = "none";
     });

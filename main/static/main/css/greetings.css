@@ -10,6 +10,9 @@
   text-align: left;
   line-height: 2;
 }
+.index-message-content span {
+  padding-left: 1rem;
+}
 .index-message-name {
   font-size: 1.2rem;
   margin: 5px;

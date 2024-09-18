@@ -40,6 +40,8 @@ img {
     height:100%;
     background-color: black;
     transition: opacity 3s;
+    transition: opacity 3s ease-out;
+
 }
 
 .footer{
