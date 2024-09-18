@@ -51,4 +51,8 @@
 .circles__container__block_location {
   font-size: 16px;
   font-weight: 550;
+  margin-top: 5px;
+}
+.circles__container__block_location .fa-location-dot {
+  margin-right: 5px;
 }/*# sourceMappingURL=circles.css.map */

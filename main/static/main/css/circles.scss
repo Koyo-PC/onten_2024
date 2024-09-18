@@ -53,6 +53,10 @@
             &_location {
                 font-size: 16px;
                 font-weight: 550;
+                margin-top: 5px;
+                .fa-location-dot {
+                    margin-right: 5px;
+                }
             }
         }
     }

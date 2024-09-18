@@ -13,11 +13,26 @@
         margin-bottom: 50px;
     }
     &_location {
-        font-size: 17px;
         margin-bottom: 30px;
+        font-size: 16px;
+        font-weight: 550;
     }
     &_introduction {
         font-size: 17px;
         width: 80vw;
+        line-height: 2;
     }
+    .fa-location-dot {
+        margin-right: 5px;
+    }
+}
+@media screen and (min-width: 900px) {
+    .circle {
+        &__image {
+            &_logo {
+                width: 360px;
+            }
+        }
+    }
+
 }

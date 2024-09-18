@@ -14,10 +14,21 @@
   width: 50vw;
 }
 .circle_location {
-  font-size: 17px;
   margin-bottom: 30px;
+  font-size: 16px;
+  font-weight: 550;
 }
 .circle_introduction {
   font-size: 17px;
   width: 80vw;
+  line-height: 2;
+}
+.circle .fa-location-dot {
+  margin-right: 5px;
+}
+
+@media screen and (min-width: 900px) {
+  .circle__image_logo {
+    width: 360px;
+  }
 }/*# sourceMappingURL=circles_detail.css.map */
