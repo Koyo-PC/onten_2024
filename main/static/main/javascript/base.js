@@ -63,6 +63,7 @@ window.onload = function() {
         cont.style.display = "none";
         conte.style.display = "none";
     });
+    
 
     const videoPC = cont.querySelector("video");
     const videoPhone = conte.querySelector("video");
