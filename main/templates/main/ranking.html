@@ -12,15 +12,18 @@
 
 {% block contents %}
 
-<h2>RANKING</h2>
-    {% for ranking in rankings %}
+<h2>レーシングゲーム</h2>
+<h2>ランキング</h2>
+    <div class="ranking">
+        {% for ranking in rankings %}
+            <div class="ranking__content">
+                <p class="ranking__content_name">{{ ranking.name }}</p>
 
-        <p>{{ ranking.name }}</p>
 
-
-        <p>{{ ranking.time }}</p>
-
-    {% endfor %}
+                <p class="ranking__content_time">{{ ranking.time }}</p>
+            </div>
+        {% endfor %}
+    </div>
 
 {% endblock %}
 
