@@ -4,7 +4,7 @@ main {
 }
 .timetable {
     display: grid;
-    grid-template-columns: 50px 170px 170px 170px 170px 170px;
+    grid-template-columns: 50px 170px 170px 170px 170px;
     grid-template-rows: 40px 30px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
     grid-template-areas: "nine stage auditorium physics audiovisual merger";
     // row-gap: 20px repeat(14, 0);
@@ -101,11 +101,11 @@ main {
         grid-row: 1;
         background-color: #01abfdcf;
     }
-    #audiovisual {
-        grid-column: 6;
-        grid-row: 1;
-        background-color: #3e48d1cf;
-    }
+    // #audiovisual {
+    //     grid-column: 6;
+    //     grid-row: 1;
+    //     background-color: #3e48d1cf;
+    // }
     #space {
         grid-row: 2;
     }
@@ -170,7 +170,7 @@ main {
         grid-row: 16;
     }
     #time-back {
-        grid-column: 2/7;
+        grid-column: 2/6;
         grid-row: 3/17;
     }
     #margin {
@@ -254,10 +254,10 @@ main {
         grid-row: 6/7;
     }
     #tas {
-        grid-row: 7/8;
+        grid-row: 8/9;
     }
     #hack {
-        grid-row: 9/10;
+        grid-row: 7/8;
     }
     #pc-build-2 {
         grid-row: 11/12;

@@ -111,44 +111,30 @@ main {
     }
 
 }
-// @media screen and (max-width: 670px) {
-//     .home {
-//         &_image {
-//             width: 80vw;
-//         }
-//         &_num {
-//             font-size: 20px;
-//             font-weight: 600;
-//         }
-//         &_koyo {
-//             font-size: 25px;
-//             font-weight: 600;
-//             margin-bottom: 15px;
-//         }
-//         &_onten {
-//             font-size: 35px;
-//             font-weight: 500;
-//             margin-bottom: 50px;
-//         }
-//         &_day {
-//             font-size: 70px;
-//             font-weight: 700;
-//         }
-//         &_time {
-//             font-size: 45px;
-//             font-weight: 600;
-//             margin-bottom: 50px;
-//         }
-//         &_countdown {
-//             font-size: 25px;
-//             font-weight: 500;
-//         }
-//         &_hour {
-//             font-size: 55px;
-//             font-weight: 600;
-//         }
-//     }
-    
-
-// }
+.attention {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    line-height: 1.7;
+    text-align: start;
+    div {
+        width: 80vw;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        h6 {
+            font-size: 20px;
+            font-weight: 600;
+        }
+        & span {
+            color: rgb(190, 123, 0);
+            font-weight: 600;
+        }
+        & p {
+            font-size: 16px;
+            font-weight: 400;
+        }
+    }
+}
 

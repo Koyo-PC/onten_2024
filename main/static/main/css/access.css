@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  line-height: 1.7;
 }
 .access_time {
   font-size: 18px;
@@ -21,6 +22,7 @@
   font-size: 18px;
   color: red;
   margin-bottom: 30px;
+  font-weight: 600;
 }
 .access_txt {
   font-size: 15px;

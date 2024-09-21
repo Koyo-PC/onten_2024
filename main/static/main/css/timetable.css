@@ -6,7 +6,7 @@ main {
 
 .timetable {
   display: grid;
-  grid-template-columns: 50px 170px 170px 170px 170px 170px;
+  grid-template-columns: 50px 170px 170px 170px 170px;
   grid-template-rows: 40px 30px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
   grid-template-areas: "nine stage auditorium physics audiovisual merger";
   overflow-x: scroll;
@@ -85,11 +85,6 @@ main {
   grid-row: 1;
   background-color: rgba(1, 171, 253, 0.8117647059);
 }
-.timetable #audiovisual {
-  grid-column: 6;
-  grid-row: 1;
-  background-color: rgba(62, 72, 209, 0.8117647059);
-}
 .timetable #space {
   grid-row: 2;
 }
@@ -154,7 +149,7 @@ main {
   grid-row: 16;
 }
 .timetable #time-back {
-  grid-column: 2/7;
+  grid-column: 2/6;
   grid-row: 3/17;
 }
 .timetable #margin {
@@ -234,10 +229,10 @@ main {
   grid-row: 6/7;
 }
 .timetable #tas {
-  grid-row: 7/8;
+  grid-row: 8/9;
 }
 .timetable #hack {
-  grid-row: 9/10;
+  grid-row: 7/8;
 }
 .timetable #pc-build-2 {
   grid-row: 11/12;

@@ -112,4 +112,30 @@ main {
   #load-img-phone {
     display: block;
   }
+}
+.attention {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  line-height: 1.7;
+  text-align: start;
+}
+.attention div {
+  width: 80vw;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.attention div h6 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.attention div span {
+  color: rgb(190, 123, 0);
+  font-weight: 600;
+}
+.attention div p {
+  font-size: 16px;
+  font-weight: 400;
 }/*# sourceMappingURL=index.css.map */
