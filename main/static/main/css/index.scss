@@ -57,6 +57,51 @@ main {
         font-size: 55px;
         font-weight: 600;
     }
+    #theday {
+        display: none;
+    }
+    #toujitsu {
+        display: block;
+    }
+    #yesterday {
+        display: block;
+    }
+    #zenjitu {
+        display: none;
+    }
+    .kaisai {
+        font-size: 50px;
+        font-weight: 600;
+    }
+    &__theday {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+
+        &__timetable {
+            width: 180px;
+            height: 180px;
+            color: white;
+            border-radius: 50%;
+            background-color: #fb0008;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+        }
+        &__ranking {
+            width: 180px;
+            height: 180px;
+            color: black;
+            border-radius: 50%;
+            background-color: #fff000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+        }
+    }
 }
 
 @media screen and (max-width: 480px) {
