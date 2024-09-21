@@ -71,6 +71,6 @@ class RankingView(ListView):
     context_object_name = "rankings"
 
     def get_queryset(self):
-        ranking = super().get_queryset().order_by('time')
+        ranking = super().get_queryset().order_by('time')[0:5]
         return ranking
     
