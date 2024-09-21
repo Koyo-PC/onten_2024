@@ -78,9 +78,10 @@ main {
 }
 .home__theday {
   display: flex;
-  align-items: center;
-  justify-content: center;
   margin-top: 30px;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 .home__theday__timetable {
   width: 180px;
@@ -99,6 +100,28 @@ main {
   color: black;
   border-radius: 50%;
   background-color: #fff000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+.home__theday__game {
+  width: 180px;
+  height: 180px;
+  color: black;
+  border-radius: 50%;
+  background-color: #00d61f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+.home__theday__pc {
+  width: 180px;
+  height: 180px;
+  color: black;
+  border-radius: 50%;
+  background-color: #05aafe;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -130,6 +153,7 @@ main {
 .attention div h6 {
   font-size: 20px;
   font-weight: 600;
+  margin-top: 30px;
 }
 .attention div span {
   color: rgb(190, 123, 0);

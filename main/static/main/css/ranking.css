@@ -31,7 +31,7 @@ main .ranking__content:nth-child(n+4) {
 main .ranking__content_name {
   font-size: 25px;
   font-weight: 500;
-  width: 150px;
+  width: 130px;
 }
 main .ranking__content_time {
   font-size: 25px;
