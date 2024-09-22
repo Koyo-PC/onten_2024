@@ -1,1 +1,13 @@
-/*# sourceMappingURL=math.css.map */
+h1 {
+  font-size: 2rem;
+  border-bottom: 1px solid blue;
+}
+
+.all {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.qa_sub {
+  line-height: 40px;
+}/*# sourceMappingURL=math.css.map */

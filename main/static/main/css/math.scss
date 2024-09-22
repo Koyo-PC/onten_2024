@@ -1,0 +1,15 @@
+h1{
+    font-size: 2rem;
+    border-bottom: 1px solid blue;
+}
+
+.all{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.qa{
+    &_sub{
+        line-height: 40px;
+    }
+}
